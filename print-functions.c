@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_char - prints character
- * @ap: argument pointer
- * @params: the parameters struct
- *
- * Return: number chars printed
- */
+* print_char - prints character
+* @ap: argument pointer
+* @params: the parameters struct
+*
+* Return: number chars printed
+*/
 int print_char(va_list ap, params_t *params)
 {
 	char pad_char = ' ';
