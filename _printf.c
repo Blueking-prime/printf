@@ -86,7 +86,6 @@ type format_type[] = {
 {'i', print_i},
 {'d', print_i},
 {'s', print_s},
-{NULL, NULL}
 };
 va_start(args, format);
 while (format && format[i])
