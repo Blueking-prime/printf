@@ -23,7 +23,7 @@ int print_s(va_list arg);
 
 typedef struct typ
 {
-char *type_name;
+char type_name;
 int (*print_func)(va_list);
 }type;
 

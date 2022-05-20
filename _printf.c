@@ -63,7 +63,7 @@ int i;
 char *s = va_arg(arg, char*);
 for (i = 0; s[i] != '\0'; i++)
 {
-write(1, s[i], sizeof(char));
+write(1, &s[i], sizeof(char));
 }
 return (i);
 }
@@ -111,7 +111,7 @@ break;
 j++;
 }
 }
-write(1, format[i], sizeof(char));
+write(1, &format[i], sizeof(char));
 i++;
 k++;
 }
